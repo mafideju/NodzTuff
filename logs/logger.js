@@ -7,3 +7,5 @@ const log = () => {
 }
 
 fs.appendFileSync('./logs/log101.txt', log());
+
+module.exports = log;
